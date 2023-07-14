@@ -1,0 +1,20 @@
+{
+  "name": "stream-deck-virtual",
+  "version": "1.0.0",
+  "description": "stream deck virtual",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --host 0.0.0.0 --port 3000",
+    "server": "node index.js --host 0.0.0.0 --port 3000",
+    "dev": "node index.js --host 0.0.0.0 --port 3000",
+    "test": "test"
+  },
+  "author": "Edson Costa",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
